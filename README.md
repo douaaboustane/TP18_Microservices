@@ -97,9 +97,17 @@ Le fichier `application.properties` configure :
 
 ## Fonctionnalités
 
-- ✅ Création de comptes bancaires
-- ✅ Consultation de tous les comptes
-- ✅ Consultation d'un compte par ID
-- ✅ Calcul des statistiques de solde (nombre, somme, moyenne)
-- ✅ Persistance avec H2 Database et JPA
+-  Création de comptes bancaires
+-  Consultation de tous les comptes
+-  Consultation d'un compte par ID
+-  Calcul des statistiques de solde (nombre, somme, moyenne)
+-  Persistance avec H2 Database et JPA
 
+##  Compilation gRPC & Protobuf avec Maven
+
+La commande Maven permet de compiler les fichiers `.proto` et de générer automatiquement  
+les sources Java et gRPC nécessaires au service.
+
+###  Résultat de la compilation
+
+![gRPC Protobuf Build](25.png)
